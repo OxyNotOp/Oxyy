@@ -29,7 +29,7 @@ print(f"[INFO]: ASSISTANT STARTED AS {ASSNAME}!")
 async def load_start():
     restart_data = await clean_restart_stage()
     if restart_data:
-        print("[INFO]: SENDING RESTART STATUS TO Oxy SERVER")
+        print("[INFO]: SENDING RESTART STATUS TO YUKKI SERVER")
         try:
             await app.edit_message_text(
                 restart_data["chat_id"],
@@ -53,7 +53,7 @@ async def load_start():
             pass     
     await app.send_message(LOG_GROUP_ID, "Yui Music Bot Started")
     await client.send_message(LOG_GROUP_ID, "Assistant Of Yui Music Started")
-    print("[INFO]: STARTED THE Oxy BOT AND SENDING THE INFO TO Oxy SERVER")
+    print("[INFO]: STARTED THE YUKKI BOT AND SENDING THE INFO TO YUKKI SERVER")
     
    
 loop = asyncio.get_event_loop()
