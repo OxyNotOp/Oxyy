@@ -26,7 +26,7 @@ async def play(_, message: Message):
         user_name = message.from_user.first_name
         rpk = "["+user_name+"](tg://user?id="+str(user_id)+")" 
         await app.send_message(message.chat.id,
-            text=f"Hello {rpk}!\n\nThis is Oxy Private Music Bot.\nI play music on Telegram's Voice Chats.\n\nOnly for selected chats.",
+            text=f"Hᴇʟʟᴏᴡᴡ {rpk}!\n\nTHɪs Is Oxʏ Pʀɪᴠᴀᴛᴇ Mᴜsɪᴄ Bᴏᴛ.\nI Pʟᴀʏ Mᴜsɪᴄ Oɴ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs.\n\n Oɴʟʏ Fᴏʀ Sᴇʟᴇᴄᴛᴇᴅ Cʜᴀᴛs.\n\n [🔥𝕐𝖔𝖚𝖗 - 𝕯𝖆𝖉𝖉𝕪🔥](https://t.me/FallenAngel_xD)"
             parse_mode="markdown",
 
             reply_to_message_id=message.message_id
