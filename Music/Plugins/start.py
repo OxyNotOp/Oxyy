@@ -26,7 +26,7 @@ async def play(_, message: Message):
         user_name = message.from_user.first_name
         rpk = "["+user_name+"](tg://user?id="+str(user_id)+")" 
         await app.send_message(message.chat.id,
-            text=f"Hello {rpk}!\n\nTʜɪs Is Oxʏ Pʀɪᴠᴀᴛᴇ Mᴜsɪᴄ Bᴏᴛ.\nI Pʟᴀʏ Mᴜsɪᴄ Oɴ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs.\n\nMʏ Oᴡɴᴇʀ :- @FallenAngel_xD .",
+            text=f"Hello {rpk}!\n\nTʜɪs Is Oxʏ Pʀɪᴠᴀᴛᴇ Mᴜsɪᴄ Bᴏᴛ.\nI Pʟᴀʏ Mᴜsɪᴄ Oɴ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs.\n\nMʏ Oᴡɴᴇʀ :- @FallenAngel_xD.",
             parse_mode="markdown",
 
             reply_to_message_id=message.message_id
