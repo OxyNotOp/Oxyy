@@ -1,4 +1,4 @@
-print("[INFO]: INITIALIZING THE Oxy SERVER")
+print("[INFO]: INITIALIZING THE SERVER")
 from pyrogram import Client
 import asyncio
 from Music.config import API_ID, API_HASH, BOT_TOKEN, MONGO_DB_URI, SUDO_USERS
@@ -20,14 +20,14 @@ def initialize():
     
 initialize()
 
-print("[INFO]: INITIALIZING DATABASE OF Oxy SERVER")
+print("[INFO]: INITIALIZING DATABASE OF YUKKI SERVER")
 MONGODB_CLI = MongoClient(MONGO_DB_URI)
 db = MONGODB_CLI.wbb
 SUDOERS = SUDO_USERS
 OWNER = OWNER_ID
 async def load_sudoers():
     global SUDOERS
-    print("[INFO]: LOADING SUDO USERS OF Oxy")
+    print("[INFO]: LOADING SUDO USERS")
     sudoersdb = db.sudoers
     sudoers = await sudoersdb.find_one({"sudo": "sudo"})
     sudoers = [] if not sudoers else sudoers["sudoers"]
@@ -38,7 +38,7 @@ async def load_sudoers():
                 {"sudo": "sudo"}, {"$set": {"sudoers": sudoers}}, upsert=True
             )
     SUDOERS = (SUDOERS + sudoers) if sudoers else SUDOERS
-    print("[INFO]: LOADED SUDO USERS OF Oxy")
+    print("[INFO]: LOADED SUDO USERS OF YUKKI")
 loop = asyncio.get_event_loop()
 loop.run_until_complete(load_sudoers())
 Music_START_TIME = time.time()
@@ -53,9 +53,9 @@ ASSID = 0
 ASSNAME = ""
 ASSUSERNAME = ""
 ASSMENTION = ""
-print("[INFO]: INITIALIZING BOT CLIENT OF Oxy")
+print("[INFO]: INITIALIZING BOT CLIENTS")
 app = Client(
-    'OxyBot',
+    'YukkiBot',
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
