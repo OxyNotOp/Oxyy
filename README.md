@@ -1,44 +1,75 @@
-<h2 align="centre">Oxy Music Player</h2>
+<h2 align="centre"> ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀʏᴇʀ🔥</h2>
 
-<h3>Requirements 📝</h3>
+## SORRY FOR OUR PROJECTS DELETED BY GITHUB FLAGGED
 
-- FFmpeg (Latest)
-- NodeJS [nodesource.com](https://nodesource.com/) (NodeJS 17+)
-- Python (3.10+)
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls) (0.8.1rc1)
-- [MongoDB](https://cloud.mongodb.com/) (3.12.1)
-- [2nd Telegram Account](https://telegram.org/blog/themes-accounts#multiple-accounts) (needed for userbot)
+### ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
-### Commands 🛠
-#### For all in group
-- `/play` - reply to youtube url or song file to play song
-- `/ytp <song name>` - play song without youtube url or song file (best method)
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
+<p align="center"><a href="https://t.me/Zaid_Team1"><img src="https://telegra.ph/file/b92b53dae4995873a4a6b.png" width="300"></a></p>
+<p align="center">
+    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
-#### Admins only
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
+## 🅡🅔🅟🅞 🅢🅣🅐🅣🅢
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=ITZ-ZAID&repo=Zaid-Vc-Player&theme=dark)
 
-### Commands for Sudo Users ⚔️
-- `/userbotleaveall` - remove assistant from all chats
-- `/gcast <reply to message>` - globally brodcast replied message to all chats
-- `/pmpermit [on/off]` - enable/disable pmpermit message
+<h3>ʀᴇQᴜɪʀᴇᴍᴇɴᴛꜱ 📝</h3>
 
-#### Pmpermit
-- `.a` - approove someone to pm you
-- `.da` - disapproove someone to pm you
-- You can add a custom pmpermit message by adding var `PMMSG` and adding your message through env vars (for heroku, Settings/Edit vars)
+- FFmpeg
+- NodeJS [nodesource.com](https://nodesource.com/)
+- Python 3.8+ or 3.7
+- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
+- [MongoDB](https://cloud.mongodb.com/)
 
-+ Sudo Users can execute any command in any groups
+🧪 ɢᴇᴛ STRING_SESSION ꜰʀᴏᴍ ʜᴇʀᴇ:
 
-# Oxy's music op
+[@genStr_Bot](https://t.me/genStr_Bot)
 
-# DEPLOY
-
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/918127726/Oxy">
-  <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-aqua?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
+[![ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@BoooCreative/Session-Generater#main.py)
+###   
+<a href="https://youtu.be/nQAyresJTC0"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
 
 
+## ᴄᴏᴍᴍᴀɴᴅꜱ 
+
+[CLICK HERE](https://t.me/SUPERIOR_BOTS/160)
+
+
+## ꜰᴇᴀᴛᴜʀᴇꜱ ᴡɪᴛʜ ᴀɪ 🔥️
+
+- **ᴘʟᴀʏ ᴍᴜꜱɪᴄ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛꜱ!** (ꜱᴜᴘᴘᴏʀᴛꜱ ᴍᴜʟᴛɪᴘʟᴇ ɢʀᴏᴜᴘꜱ)
+- **ꜱᴜᴘᴘᴏʀᴛꜱ Qᴜᴇᴜᴇꜱ!**
+- **ᴄᴏɴᴛʀᴏʟ ʙʏ ʙᴜᴛᴛᴏɴꜱ ᴏʀ ᴄᴏᴍᴍᴀɴᴅꜱ**
+- **ꜱᴇᴀʀᴄʜ ꜰᴏʀ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏꜱ ɪɴʟɪɴᴇ!**
+- **ᴅᴏᴡɴʟᴏᴀᴅ ʏᴛ ꜱᴏɴɢꜱ ʙʏ ɪᴛ'ꜱ ɴᴀᴍᴇ!**
+- **ᴅᴏᴡɴʟᴏᴀᴅ ʏᴛ ᴠɪᴅᴇᴏꜱ ʙʏ ɪᴛ'ꜱ ɴᴀᴍᴇ!**
+- **ᴀꜱꜱɪꜱᴛᴀɴᴛ ʟɪᴋᴇ ᴜꜱᴇʀʙᴏᴛ**
+- **ɢᴇᴛ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ʟɪɴᴋ!** (ᴘᴜʙʟɪᴄ ɢʀᴏᴜᴘꜱ ᴏɴʟʏ )
+- **ɢᴇᴛ ʟʏʀɪᴄꜱ ᴏꜰ ʏᴏᴜʀ ꜱᴏɴɢ!**
+- **ᴊᴏɪɴ & ʟᴇᴀᴠᴇ ꜱᴛʀᴇᴀᴍᴇʀ ᴀᴄᴄᴏᴜɴᴛ ᴜꜱɪɴɢ ᴀ ᴄᴏᴍᴍᴀɴᴅ**
+- **ʙᴀɴ / ᴜɴʙᴀɴ ᴜꜱᴇʀꜱ ᴀɴᴅ ᴄʜᴇᴄᴋ ᴜꜱᴇʀ ꜱᴛᴀᴛᴜꜱ.**
+- **ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇꜱꜱᴀɢᴇꜱ**
+- **ᴀɪ**
+- **ᴄᴏᴏʟ ꜱᴛᴀʀᴛꜱ ᴘʟᴜɴɢɪɴꜱ**
+- **ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ʙᴏᴛ ᴇᴀꜱɪʟʏ**
+
+## 🔎 ꜱᴜᴘᴘᴏʀᴛ ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ
+
+## ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛꜱ 💜
+ʜᴇʀᴏᴋᴜ ɪꜱ ᴛʜᴇ ᴇᴀꜱʏ ᴡᴀʏ ᴛᴏ ʜᴏꜱᴛ ᴜʀ ᴀᴘᴘꜱ
+
+[![ᴢᴠᴄ ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ITZ-ZAID/Zaid-Vc-Player)
+
+## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚄
+ꜰᴏʀ ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ ᴍᴀᴋᴇ [Necessary Variables Here](https://github.com/ITZ-ZAID/Zaid-Vc-Player), ᴜ ʜᴀᴠᴇ ᴛᴏ ꜰɪʟʟ.
+
+[![ᴢᴀɪᴅ+ᴅᴇᴘʟᴏʏ+ᴏɴ+ʀᴀɪʟᴡᴀʏ](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/ITZ-ZAID/Zaid-Vc-Player&envs=SESSION_NAME,BOT_TOKEN,ASS_ID,OWNER_ID,ZAID_SUPPORT,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT,LOG_GROUP_ID,MONGO_DB_URI)
+
+
+### ꜱᴘᴇᴄɪᴀʟ ᴄʀᴇᴀᴅɪᴛꜱ 💖
+- Callsmusic
+- Yukki
+- PyroGram
+-xyz ⚡
+
+
+### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
+<a href="https://t.me/Superior_support"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Superior_bots"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>

@@ -25,8 +25,9 @@ pyromod
 requests
 speedtest-cli
 uvloop
-git+https://github.com/itsunknown-12/yt-dl@master
+git+https://github.com/ITZ-ZAID/yt-dl@master
 telegraph
+heroku3
 hachoir
 lyricsgenius
 solidAPI==0.1.8.9
