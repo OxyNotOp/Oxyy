@@ -16,15 +16,15 @@ def play_markup(videoid, user_id):
                 InlineKeyboardButton(text="⏹️", callback_data=f'stopvc2')
             ],
             [
-                InlineKeyboardButton(text="🔎 ɢᴇᴛ ʟʏʀɪᴄꜱ", callback_data=f'lyrics {videoid}|{user_id}'),
-                InlineKeyboardButton(text="🖱 ᴍᴇɴᴜ", callback_data=f'other {videoid}|{user_id}'),
+                InlineKeyboardButton(text="🔎 Gᴇᴛ Lʏʀɪᴄs", callback_data=f'lyrics {videoid}|{user_id}'),
+                InlineKeyboardButton(text="🖱 Mᴇɴᴜ", callback_data=f'other {videoid}|{user_id}'),
             ],
             [
-                InlineKeyboardButton(text=f"✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{ZAID_SUPPORT}"),
-                InlineKeyboardButton(text=f"📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton(text=f"✨ Gʀᴏᴜᴘ", url=f"https://t.me/{ZAID_SUPPORT}"),
+                InlineKeyboardButton(text=f"📣 Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [      
-                InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ", callback_data=f'close2')
+                InlineKeyboardButton(text="🗑 Cʟᴏsᴇ", callback_data=f'close2')
             ],
         ]
     return buttons 
@@ -33,8 +33,8 @@ def play_markup(videoid, user_id):
 def others_markup(videoid, user_id):
     buttons= [
             [
-                InlineKeyboardButton(text="✨ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton(text="➕ Group Playlist", callback_data=f'group_playlist {videoid}|{user_id}')
+                InlineKeyboardButton(text="✨ Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton(text="➕ Gʀᴏᴜᴘ Pʟᴀʏʟɪsᴛ", callback_data=f'group_playlist {videoid}|{user_id}')
             ],
             [
                 InlineKeyboardButton(text="Get Audio", callback_data=f'gets audio|{videoid}|{user_id}'),
@@ -68,8 +68,8 @@ play_keyboard = InlineKeyboardMarkup(
                     )
                 ],
                 [
-                    InlineKeyboardButton(text=f"✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{ZAID_SUPPORT}"),
-                    InlineKeyboardButton(text=f"📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton(text=f"✨ Gʀᴏᴜᴘ", url=f"https://t.me/{ZAID_SUPPORT}"),
+                    InlineKeyboardButton(text=f"📣 Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -88,11 +88,11 @@ def audio_markup(videoid, user_id):
                 InlineKeyboardButton(text="⏹️", callback_data=f'stopvc2')
             ],
             [
-                InlineKeyboardButton(text=f"✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{ZAID_SUPPORT}"),
-                InlineKeyboardButton(text=f"📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton(text=f"✨ Gʀᴏᴜᴘ", url=f"https://t.me/{ZAID_SUPPORT}"),
+                InlineKeyboardButton(text=f"📣 Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton(text="🗑 Close", callback_data="close2")              
+                InlineKeyboardButton(text="🗑 Cʟᴏsᴇ", callback_data="close2")              
             ],
         ]
     return buttons 
@@ -105,11 +105,11 @@ def single_markup(ID, duration, user_id, query):
                 InlineKeyboardButton(text="🔎 Search More", callback_data=f'popat 1|{query}|{user_id}')
             ],
             [
-                InlineKeyboardButton(text=f"✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{ZAID_SUPPORT}"),
-                InlineKeyboardButton(text=f"📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton(text=f"✨ Gʀᴏᴜᴘ", url=f"https://t.me/{ZAID_SUPPORT}"),
+                InlineKeyboardButton(text=f"📣 Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ", callback_data=f"ppcl2 smex|{user_id}")
+                InlineKeyboardButton(text="🗑 Cʟᴏsᴇ", callback_data=f"ppcl2 smex|{user_id}")
             ],
        ]  
     return buttons
