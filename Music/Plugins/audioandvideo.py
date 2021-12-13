@@ -350,7 +350,7 @@ async def boom(_,CallbackQuery):
 👀 **Views:** __{x["view_count"]}__
 🎥 **Channel Name:** {x["uploader"]}
 
-__Youtube Inline Download Powered By 𝙊𝙓𝙔 ✘ 𝙈𝙐𝙎𝙄𝘾 Player__ """    
+__Youtube Inline Download Powered By SHUBHANSHU/BOOO Music Player__ """    
     link = (x["webpage_url"])
     channel = (x["channel_url"])
     perf = (x['uploader'])

@@ -17,6 +17,7 @@ from pytgcalls import StreamType
 from pytgcalls.types.input_stream import InputAudioStream
 from pytgcalls.types.input_stream import InputStream
 from sys import version as pyver
+from Music.MusicUtilities.helpers.decorate import authorized_users_only
 from Music import dbb, app, BOT_USERNAME, BOT_ID, ASSID, ASSNAME, ASSUSERNAME, ASSMENTION
 from Music.MusicUtilities.tgcallsrun import (music, convert, download, clear, get, is_empty, put, task_done, ASS_ACC)
 from Music.MusicUtilities.database.queue import (get_active_chats, is_active_chat, add_active_chat, remove_active_chat, music_on, is_music_playing, music_off)
@@ -56,7 +57,7 @@ def time_to_seconds(time):
         int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(":")))
     )
 
-@Client.on_message(command(["play", "play@SkylerX_bot"]))
+@Client.on_message(command(["play", "ytp"]))
 async def play(_, message: Message):
     chat_id = message.chat.id  
     if message.sender_chat:
@@ -233,7 +234,7 @@ async def play(_, message: Message):
         if len(message.command) < 2:
             what = "Command"
             user_name = message.from_user.first_name
-            thumb ="cache/playlistthumb.jpg"
+            thumb ="cache/nofound.jpg"
             buttons = playlist_markup(user_name, user_id)
             hmo = await message.reply_photo(
             photo=thumb, 
@@ -265,7 +266,7 @@ async def play(_, message: Message):
             ID5 = (result[4]["id"])
         except Exception as e:
             return await mystic.edit_text(f"❌ Soung Not Found.\n**Possible Reason:**{e}")
-        thumb ="cache/20211103_135204.jpg"
+        thumb ="cache/playlistthumb.jpg"
         await mystic.delete()   
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
         hmo = await message.reply_photo(
