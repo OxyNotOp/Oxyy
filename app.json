@@ -1,8 +1,8 @@
 {
-    "name": "Zaid Vc Player",
+    "name": "Oxy Vc Player",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
-    "keywords": ["Zaid", "Veez Music", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"],
-    "repository": "https://github.com/itsunknown-12/Zaid-Vc-Player",
+    "keywords": ["OxyXmusic", "Veez Music", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"],
+    "repository": "https://github.com/OxyNotOp/Oxyy",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -20,7 +20,7 @@
             "value": "1904094450"
         },
         "LOG_GROUP_ID": {
-            "description": "Add @Zaid2_robot and type /id to get ur chat id",
+            "description": "Add rosebot and type /id to get ur chat id",
             "required": true,
             "value": "Fill There Ur Private/Channel Id Make sure start with -100"
         },
@@ -34,20 +34,20 @@
             "required": false,
             "value": "4e984ea35f854762dcde906dce426c2d"
         },
-        "ZAID_SUPPORT": {
+        "OXY_SUPPORT": {
             "description": "Ur Support Group Username",
             "required": false,
-            "value": "Superior_Support"
+            "value": "https://t.me/bestiesfortheresties"
         },
         "UPDATES_CHANNEL": {
             "description": "Ur Updates Channel",
             "required": false,
-            "value": "Superior_bots"
+            "value": "FeelingsOP"
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": "1669178360"
+            "value": "1303669398"
         },
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
