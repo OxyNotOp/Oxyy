@@ -37,7 +37,7 @@
         "OXY_SUPPORT": {
             "description": "Ur Support Group Username",
             "required": false,
-            "value": "https://t.me/bestiesfortheresties"
+            "value": "bestiesfortheresties"
         },
         "UPDATES_CHANNEL": {
             "description": "Ur Updates Channel",
