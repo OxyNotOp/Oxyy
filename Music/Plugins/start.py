@@ -2,7 +2,7 @@ import asyncio
 from time import time
 from datetime import datetime
 from Music import BOT_USERNAME
-from Music.config import UPDATES_CHANNEL, ZAID_SUPPORT
+from Music.config import UPDATES_CHANNEL, OXY_SUPPORT
 from Music.MusicUtilities.helpers.filters import command
 from Music.MusicUtilities.helpers.command import commandpro
 from pyrogram import Client, filters
@@ -61,7 +61,7 @@ Powered By [Oxʏ Bᴏᴛs](https://t.me/FallenAngel_xD) ...
                         "Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url=f"https://t.me/{ZAID_SUPPORT}"
+                        "Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url=f"https://t.me/{OXY_SUPPORT}"
                     )
                 ]
                 
