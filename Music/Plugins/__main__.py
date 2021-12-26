@@ -1,3 +1,3 @@
-## © Zaid Vc Player https://github.com/Itsunknown-12/Zaid-Vc-Player
+## © Oxy Vc Player https://github.com/OxyNotOp/Oxyy
 
-## @Superior_bots
+## @FeelingsOP
